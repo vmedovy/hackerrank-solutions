@@ -3,10 +3,6 @@ project(hackerrank-cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(hackerrank-cpp-001 hackerrank-cpp-001/main.cpp)
-
-add_executable(hackerrank-cpp-002 hackerrank-cpp-002/main.cpp)
-
-add_executable(hackerrank-cpp-003 hackerrank-cpp-003/main.cpp)
-
-add_executable(hackerrank-cpp-004 hackerrank-cpp-004/main.cpp)
+foreach (ID RANGE 1 4)
+    add_executable(hackerrank-cpp-${ID} hackerrank-cpp-${ID}/main.cpp)
+endforeach ()
