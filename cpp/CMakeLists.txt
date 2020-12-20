@@ -8,3 +8,5 @@ add_executable(hackerrank-cpp-001 hackerrank-cpp-001/main.cpp)
 add_executable(hackerrank-cpp-002 hackerrank-cpp-002/main.cpp)
 
 add_executable(hackerrank-cpp-003 hackerrank-cpp-003/main.cpp)
+
+add_executable(hackerrank-cpp-004 hackerrank-cpp-004/main.cpp)
